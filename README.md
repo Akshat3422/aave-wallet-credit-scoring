@@ -65,19 +65,4 @@ Wallets are grouped into buckets based on predicted scores:
 | 500–800     | Balanced activity and healthy repayment behavior |
 | 800–1000    | High repayment %, low risk, frequent redemptions |
 
-### Distribution Plot (optional)
-You can generate and save the score distribution:
-
-```python
-import matplotlib.pyplot as plt
-import pandas as pd
-
-wallet_features['score_range'] = pd.cut(wallet_features['predicted_score'], bins=range(0, 1100, 100))
-wallet_features['score_range'].value_counts().sort_index().plot(kind='bar')
-plt.xlabel("Score Range")
-plt.ylabel("Number of Wallets")
-plt.title("Distribution of Wallet Scores")
-plt.tight_layout()
-plt.savefig("score_distribution.png")
-
 
