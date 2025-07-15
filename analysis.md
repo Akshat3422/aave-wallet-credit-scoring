@@ -1,8 +1,8 @@
-# 📊 Credit Score Analysis of Wallets (Aave V2 Protocol)
+# Credit Score Analysis of Wallets (Aave V2 Protocol)
 
 This document presents an analysis of the credit scores assigned to user wallets based on their historical DeFi transaction behavior on the Aave V2 protocol.
 
-## 🎯 Objective
+##  Objective
 
 We aimed to generate a credit score between **0 and 1000** for each wallet using features like:
 - Number of borrows/repays/liquidations
@@ -15,7 +15,7 @@ A higher score indicates a more responsible and reliable DeFi user.
 
 ---
 
-## 🧠 Score Distribution & Behavior Summary
+##  Score Distribution & Behavior Summary
 
 We segmented wallets into score ranges and analyzed their behavior:
 
@@ -55,7 +55,7 @@ We segmented wallets into score ranges and analyzed their behavior:
 
 ---
 
-## 📈 Score Distribution Graph
+## Score Distribution Graph
 
 ![Wallet Score Distribution](score_distribution.png)
 
