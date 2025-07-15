@@ -1,4 +1,3 @@
-# aave-wallet-credit-scoring
 # Aave Wallet Credit Scoring
 
 This project builds a machine learning pipeline to score DeFi user wallets based on transaction history from the Aave protocol. It includes data preprocessing, feature engineering, model training, and score prediction.
